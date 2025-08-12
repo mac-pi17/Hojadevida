@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+    <title>CV Miguel Calderon</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #D6D6D6;
+        }
+
+        .name {
+            width: 100%;
+            height: 250px;
+            background: #8A9DBC;
+            transform: skewY(-5deg);            
+        }
+
+        .name .content {
+            width: 50%;
+            height: 50%;
+            position: absolute;
+            left: 25%;
+        }
+
+        .name .content .p-1 {
+            color: black;
+            font-family: 'Macondo', cursive;
+            font-weight: bold;
+            font-size: 50px;
+            transform: skewY(5deg);
+        }
+
+        .name .content .p-2 {
+            color: black;
+            font-family: 'Macondo', cursive;
+            font-size: 25px;
+            transform: skewY(5deg);
+        }
+
+        .info {
+            width: 90%;
+            height: auto;
+            background: #B4BBCF;
+            margin: 5% auto;
+            padding: 20px;
+        }
+
+        .info .tituloseccion {
+            color: black;
+            font-family: 'Macondo';
+            font-size: xx-large;
+            text-align: center;
+            font-weight: bolder;
+            border-bottom: 2px grey dashed;
+        }
+
+        .info .titulonombre {
+            color: black;
+            font-family: 'Macondo';
+            font-size: large;
+            font-weight: bolder;
+            display: inline;
+        }
+
+        .info .infonombre {
+            color: black;
+            font-family: 'Macondo';
+            font-size: large;
+            font-weight: normal;
+            display: inline;
+        }
+
+        .name .img {
+            position: absolute;
+            top: 25%;
+            right: 20%;
+            width: 180px;
+            height: 180px;
+            border-radius: 100%;
+            transform: skewY(5deg);
+            overflow:hidden;
+        }
+
+        .name .img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="name">
+        
+        <div class="content">
+            <h1 class="p-1">Miguel Angel Calderon Estrada</h1>
+            <p class="p-2">32 años, Ingeniero electrónico</p>
+        </div>
+
+        <div class="img">
+        <img src="./Foto Digital 3x4.jpg" alt="">
+    </div>
+
+    </div>
+
+    <div class="info">
+        <p class="tituloseccion">Información personal</p>
+        <p class="titulonombre">Nombres y apellidos:</p>
+        <p class="infonombre">Miguel Angel Calderon Estrada</p><br>
+        <p class="titulonombre">Teléfono:</p>
+        <p class="infonombre">(+57)3006453351</p><br>
+        <p class="titulonombre">Email:</p>
+        <p class="infonombre">miguel.calderon.estrada@pi.edu.co</p><br>
+    </div>
+
+    <div class="info">
+        <p class="tituloseccion">Perfil profesional</p>
+        <p class="infonombre">Soy Ingeniero de Software de Control de Calidad con más de 5 años de experiencia en Testing de Software. He trabajado en pruebas funcionales, de rendimiento y automatizadas para páginas web, aplicaciones móviles y APIs, bajo metodologías ágiles como Scrum.
+            Como Ingeniero de Automatización de Control de Calidad, he tenido la oportunidad de liderar equipos de testing, diseñando planes y estrategias de testing, y he trabajado con la metodología BDD, el framework Cucumber y el lenguaje Gherking para archivos de features y POM.
+            Tengo experiencia con Selenium Web Driver para web y Appium para móviles (iOS y Android), así como con Java y C#, que incluyen frameworks como RestAssured o RestSharp, respectivamente, para automatizar APIs.
+        </p>
+    </div>
+
+    <div class="info">
+        <p class="tituloseccion">Educación e información</p> 
+        <p class="titulonombre">Básica Primaria:</p> 
+        <p class="infonombre">Escuela Santa cruz (2003)</p><br> 
+        <p class="titulonombre">Básica Secundaria:</p> 
+        <p class="infonombre">Colegio Juan Cristobal Martinez (2008)</p><br> 
+        <p class="titulonombre">Educación superior:</p> 
+        <li>
+            <p class="infonombre">Universidad Industrial de Santander (2017)</p><br>
+        </li>
+        <li>
+            <p class="infonombre">Politécnico internacional (En curso)</p><br>
+        </li>
+    </div>
+
+    <div class="info"> 
+        <p class="tituloseccion">Cursos y certificaciones</p>
+        <li>
+            <p class="infonombre">ISTQB Foundations (2018)</p><br>
+        </li>
+        <li>
+            <p class="infonombre">Bootcamp Fullstack (En curso)</p><br>
+        </li>
+    </div>
+
+    <div class="info"> 
+        <p class="tituloseccion">Experiencia laboral</p> 
+        <p class="titulonombre">Nombre de la empresa:</p> 
+        <p class="infonombre">Slalom</p><br>
+        <p class="titulonombre">Funciones:</p>
+        <li>
+            <p class="infonombre">Automatización de pruebas API</p>
+        </li>
+        <li>
+            <p class="infonombre">Diseño y planeación de pruebas</p>
+        </li>
+        <li>
+            <p class="infonombre">Seguimiento de la calidad de software</p>
+        </li>
+        <p class="titulonombre">Año de labor: </p>
+        <p class="infonombre">2025 - Actualidad</p><br><br>
+        <p class="titulonombre">Nombre de la empresa:</p> 
+        <p class="infonombre">Encora</p><br> 
+        <p class="titulonombre">Funciones:</p> 
+        <li>
+            <p class="infonombre">Automatización de pruebas API</p>
+        </li>
+        <li>
+            <p class="infonombre">Diseño y ejecución de plan de pruebas</p>
+        </li>
+        <li>
+            <p class="infonombre">Verificación de pruebas en despliegue</p>
+        </li>
+        <p class="titulonombre">Año de labor:</p>
+        <p class="infonombre">2022-2025</p><br>
+    </div>
+
+
+</body>
+</html>
